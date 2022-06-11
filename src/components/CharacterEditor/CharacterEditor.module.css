@@ -4,9 +4,7 @@
 }
 
 .maxWidthWrapper {
-  width: 1024px;
-  max-width: 100%;
-  isolation: isolate;
+  position: relative;
 }
 
 .header {
@@ -29,8 +27,9 @@
 
 .characterWrapper {
   position: fixed;
-  top: 75px;
-  right: 0;
+  left: 65%;
+  top: 12%;
+  bottom: 5%;
   min-height: 500px;
   width: 35%;
 }
