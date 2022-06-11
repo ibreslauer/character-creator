@@ -1,4 +1,10 @@
 .buttonRow {
+  /*
+  * relative position contains absolutely positioned
+  * VisuallyHidden elements - otherwise they can cause
+  * a horizontal scrollbar
+  */
+  position: relative;
   white-space: nowrap;
   overflow: auto;
   margin-left: -22px;
